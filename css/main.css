@@ -3,13 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Spectral');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color:#F5F5DC;
+    font-family: 'Goudy Old Style', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
-    background-image: url("../images/background.jpg");
     background-repeat: repeat;
-    background-size: 2000px 1200px;
+   
 }
 
 body{
@@ -17,14 +16,14 @@ body{
 }
 
 ::selection {
-    color: #000; 
-    background: #ff0;
+    color: #E9967A; 
+    background: rgb(34, 34, 33);
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: #DEB887;
     line-height: 2.5em;
 }
 /*
@@ -32,13 +31,13 @@ h1 {
  curved corners that appear on the body area of the page
 */
 h1.page-header{
-    font-family: 'Spectral',serif;
+    font-family: 'Goudy Old Style',serif;
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topleft: 5px;
     -moz-border-radius-topright: 5px;
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-right-radius: 5px;   
  }
  
 
@@ -54,6 +53,8 @@ h1.page-header{
 
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
+    text-align: center;
+    
 }
 
 h2,h3 {
@@ -63,13 +64,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#E9967A;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color:#BDB76B;
     text-decoration: none;
 }
 
